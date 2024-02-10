@@ -11,13 +11,30 @@
     box-sizing:border-box;
     border-radius: 3px;
 }
-#reset {
+#reset,#rgb {
     padding:10px;
-    background-color: #3882F6;
+    background-color:black;
     color:aliceblue;
     border-radius: 8px;
 }
-#reset:hover {
-    background-color: aliceblue;
-    color:#3882F6;
+#reset:hover, #rgb:hover{
+    background-color: white;
+    color:black;
+    border-color: white;
+}
+#reset {
+    margin-bottom: 10px;
+}
+body {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ul {
+    list-style-type:none;
+}
+#grid {
+    border: 8px solid black;
+    border-bottom: 48px solid black;
+    border-radius: 1.5em;
 }
