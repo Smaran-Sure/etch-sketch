@@ -1,0 +1,23 @@
+#grid {
+    display:flex;
+    width: 640px;
+    height: 640px;
+    flex-wrap:wrap;
+}
+.pixel {
+    border: 1px solid gray;
+    width:40px;
+    height:40px;
+    box-sizing:border-box;
+    border-radius: 3px;
+}
+#reset {
+    padding:10px;
+    background-color: #3882F6;
+    color:aliceblue;
+    border-radius: 8px;
+}
+#reset:hover {
+    background-color: aliceblue;
+    color:#3882F6;
+}
