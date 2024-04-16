@@ -14,6 +14,12 @@ function createBoard() {
         }
     }
 }
+const pixel = document.querySelectorAll(".pixel");
+pixel.forEach(pix => {
+    pix.addEventListener("mousedown", () => {
+        pix.style.backgroundColor="black";});
+})
+
 createBoard();
 function getRandomInt(max) {
     return Math.floor(Math.random() * max);
