@@ -3,6 +3,7 @@
     width: 640px;
     height: 640px;
     flex-wrap:wrap;
+    flex-shrink: 0;
 }
 .pixel {
     border: 1px solid gray;
